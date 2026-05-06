@@ -1,0 +1,7 @@
+echo -n "admin123" | md5sum
+
+john --for,at=raw-md5 --wordlist=small.txt hash.txt
+ 
+john --show --format=raw-md5 hash.txt
+ 
+hashcayt -m 0 -a 0 hash.txt small.txt
