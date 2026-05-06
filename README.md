@@ -30,3 +30,7 @@ john --format=raw-md5 --wordlist=small.txt hash.txt
 Crack Hash Using Hashcat
 
 hashcat -m 0 -a 0 hash.txt small.txt
+=======
+# password-cracking-hash-analysis
+Password Cracking & Hash Analysis Lab using John the Ripper and Hashcat for educational cybersecurity research and password security auditing.
+>>>>>>> 2a6783d440f7cbf4704542dee97ba3f7e2d4cce7
